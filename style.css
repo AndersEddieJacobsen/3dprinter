@@ -1,0 +1,510 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    -webkit-text-stroke-width: 0.7px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll_ned {
+padding-left: 5%;
+}
+/* ----problem seksjon--- */
+/* ----problem seksjon--- */
+
+.forside {
+    margin: 0;
+    height: 60vh;
+    width: 100%;
+    padding: 0;
+    max-width: none;
+    background-image: url("bilder/bGrunn/blad.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    box-shadow: 1px -2px 4px 0;
+}
+
+/* overskrift styling */
+
+.overskrift_forside {
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    position: absolute;
+    background-color: white;
+    opacity: 80%;
+    top: 12%;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+#puzzle_img {
+    background-image:url("./bilder/puzzleny.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+    height: 20vh;
+}
+
+/* ----meny---- */
+
+a {
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header .meny {
+    max-height: 0;
+    clear: both;
+}
+
+/* ikon meny */
+
+.header .meny_ikon {
+    float: right;
+    padding: 20px 20px;
+    position: relative;
+}
+
+/* meny knapp */
+
+.header .meny_knapp {
+    display: none;
+}
+
+.header .meny_knapp:checked ~ .meny {
+    max-height: 260px;
+}
+
+#mobil_meny_ikon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 1px -2px 4px 0;
+    opacity: 98%;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header li a {
+    display: block;
+    padding: 10px 10px;
+    border-right: 1px solid #f5f5f5;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 1.5em;
+    padding: 15px 10px 0;
+    text-decoration: none;
+}
+
+.scroll_ned {
+    text-align: right;
+    position: absolute;
+    bottom: 3%;
+    font-size: 20px;
+    background-color: white;
+    opacity: 70%;
+    text-decoration: none;
+    padding-right: 3%;
+}
+
+
+
+/* ----about seksjon---- */
+/* ----about seksjon---- */
+
+
+.about {
+
+}
+
+
+#Challenge1 {
+    font-size: 40px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    display: block;
+}
+
+#p1 {
+
+    font-size: 20px;
+    max-width: 80%;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.about img {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    padding-bottom: 100px;
+}
+
+#Challenge2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    display: block;
+}
+
+#p2 {
+    max-width: 80%;
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+    text-align: center;
+    z-index: 1;
+}
+
+#button {
+    text-align: center;
+    background-color: darkred;
+    width: 190px;
+    margin: auto;
+    margin-bottom: 10%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#button a {
+    padding: 25px;
+}
+
+#button:hover {
+    background-color: #0ca678;
+}
+
+.about button {
+    font-size: 20px;
+    background-color: rgb(110, 0, 0);
+    padding: 20px 20px;
+    border-width: 0;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#button a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+/*------- UN goal 12 ----- */
+
+.ungoal {
+}
+
+.ungoal-content {
+    background-color: rgb(27, 15, 62);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 14%;
+    padding-right: 14%;
+    color: white;
+
+}
+
+.ungoal-content-text {
+    width: 550px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.ungoal-bilde {
+    width: 220px;
+    padding-top: 3%;
+}
+
+.ungoal-content img {
+    width:100%;
+    height: auto;
+}
+
+.srclink {
+    color: #d0ebff;
+}
+
+/*------- Kilde seksjon ------*/
+/*------- Kilde seksjon ------*/
+
+.kilde {
+    color: white;
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    z-index: 1;
+    display: block;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+
+}
+.kilde_innhold {
+    width: 100%;
+    padding:3%;
+}
+
+
+/* ----solution side---- */
+/* ----solution side---- */
+
+
+#scrollStopp {
+    position: absolute;
+    bottom: 25px;
+}
+.map{
+    padding:3%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 6px lightgrey;
+    width: 70%;
+    background-color:rgb(239, 245, 239);
+}
+
+/*--------solution overskrift-------*/
+
+.overskrift_solution{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 8vh;
+    opacity: 76%;
+    font-weight: bold;
+    padding-left: 6%;
+    float: left;
+}
+
+.elementerForside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    padding-top: 20vh;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Endre fra forrige .solutions2 */
+.solution2 {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    background-color: #ECECEC;
+}
+
+.maskinbilde {
+    width: 40vh;
+    height: 50vh;
+    float: left;
+}
+
+.fa-recycle {
+    padding-top: 6%;
+    font-size: 10vh;
+    color: #2b8a3e;
+}
+
+.prototype{
+    text-align: right;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 20px;
+    background-color: white;
+    opacity: 70%;
+    text-decoration: none;
+
+}
+
+.function {
+    height: 100vh;
+    padding-top: 3vh;
+}
+
+.container_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vending{
+    padding: 5px;
+    width: 40vw;
+}
+
+.vending2{
+    height: 40vw;
+    padding: 5px;
+}
+
+/*------ mobil seksjon ----- */
+
+.mobil-text-innhold{
+    font-size: 40px;
+}
+
+.mobil-app {
+    width: 80%;
+    padding:5%;
+}
+
+.mobil-text {
+    font-size: 1.2em;
+}
+
+img.mobil-kart {
+    padding: 0;
+    margin: 0;
+}
+
+.mobil-kart{
+    padding-top: 10%;
+    height: auto;
+    width: 280px;
+}
+
+
+/* =====mobilversion====== */
+
+@media (min-width: 768px) {
+    .header .meny {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .meny_ikon {
+        display: none;
+    }
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .overskrift_forside {
+        font-size: 70px;
+        top:8%;
+    }
+
+    .ungoal-bilde {
+        padding-top: 2%;
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container_image {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .vending {
+        width: 70%;
+        height: 70%;
+    }
+    .vending2 {
+        width: 70%;
+        height: 70%;
+    }
+
+    .maskinbilde {
+        width: 50%;
+        height: 50%;
+    }
+
+    .elementerForside {
+        padding-top: 15vh;
+    }
+
+    .overskrift_solution {
+        font-size: 6vh;
+    }
+
+    .overskrift_forside {
+        top: 13%;
+        font-size: 7vh;
+    }
+
+    .ungoal-content {
+
+        padding-bottom: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
+
+
+    }
+
+}
+
+
+@media (max-width: 1087px) {
+
+    .map {
+        flex-wrap: wrap;
+    }
+
+    .mobil-kart {
+        padding-top: 2%;
+        width: 100%;
+    }
+
+}
