@@ -1,13 +1,4 @@
-@supports (display: grid) { 
-    div { 
-        display: grid; 
-    } 
-} 
-@supports not (display: grid) {
-    div { 
-        float: right;
-    } 
-}  
+
 
 *{margin:0;
     padding:0;
